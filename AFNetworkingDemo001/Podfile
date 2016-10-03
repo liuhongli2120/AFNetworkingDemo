@@ -1,0 +1,8 @@
+
+platform :ios, ‘8.0’
+
+target 'AFNetworkingDemo001' do
+
+pod ‘AFNetworking’
+
+end
