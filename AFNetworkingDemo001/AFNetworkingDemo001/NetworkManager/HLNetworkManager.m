@@ -15,6 +15,9 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         instance = [self new];
+        
+        instance.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html", nil];
+        
     });
     return instance;
 }
