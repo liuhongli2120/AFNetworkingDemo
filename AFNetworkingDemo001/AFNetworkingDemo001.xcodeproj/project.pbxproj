@@ -13,6 +13,7 @@
 		F2CCFA521DA285E400177292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CCFA501DA285E400177292 /* Main.storyboard */; };
 		F2CCFA541DA285E400177292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2CCFA531DA285E400177292 /* Assets.xcassets */; };
 		F2CCFA571DA285E400177292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CCFA551DA285E400177292 /* LaunchScreen.storyboard */; };
+		F2CCFA611DA2BD1400177292 /* HLNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA601DA2BD1400177292 /* HLNetworkManager.m */; };
 		F86B22318AF35945EE32A4BB /* libPods-AFNetworkingDemo001.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 774156A79445EE3CCC68C949 /* libPods-AFNetworkingDemo001.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,8 @@
 		F2CCFA531DA285E400177292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2CCFA561DA285E400177292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2CCFA581DA285E400177292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2CCFA5F1DA2BD1400177292 /* HLNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNetworkManager.h; sourceTree = "<group>"; };
+		F2CCFA601DA2BD1400177292 /* HLNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNetworkManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 				F2CCFA4B1DA285E400177292 /* AppDelegate.m */,
 				F2CCFA4D1DA285E400177292 /* ViewController.h */,
 				F2CCFA4E1DA285E400177292 /* ViewController.m */,
+				F2CCFA5E1DA2BBF000177292 /* NetworkManager */,
 				F2CCFA501DA285E400177292 /* Main.storyboard */,
 				F2CCFA531DA285E400177292 /* Assets.xcassets */,
 				F2CCFA551DA285E400177292 /* LaunchScreen.storyboard */,
@@ -101,6 +105,15 @@
 				F2CCFA481DA285E400177292 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2CCFA5E1DA2BBF000177292 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				F2CCFA5F1DA2BD1400177292 /* HLNetworkManager.h */,
+				F2CCFA601DA2BD1400177292 /* HLNetworkManager.m */,
+			);
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +145,7 @@
 		F2CCFA3C1DA285E400177292 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HL;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = lhl;
 				TargetAttributes = {
@@ -228,6 +242,7 @@
 			files = (
 				F2CCFA4F1DA285E400177292 /* ViewController.m in Sources */,
 				F2CCFA4C1DA285E400177292 /* AppDelegate.m in Sources */,
+				F2CCFA611DA2BD1400177292 /* HLNetworkManager.m in Sources */,
 				F2CCFA491DA285E400177292 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
