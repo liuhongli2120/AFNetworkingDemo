@@ -12,4 +12,6 @@
 
 + (instancetype)sharedManager;
 
+- (void)newsListWithTimeString:(NSString *)timeString isPullup:(BOOL)isPullup completion:(void(^)(NSArray *array, NSError *error))completion;
+
 @end
