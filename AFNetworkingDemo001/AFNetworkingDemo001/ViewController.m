@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "HLNetworkManager.h"
+#import "HLNewsModel.h"
+#import "NSObject+HLRuntime.h"
 
 
 @interface ViewController ()
@@ -19,6 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self loadData];
+//    NSLog(@"%@", [HLNewsModel hl_propertyList]);
+    
+    NSLog(@"%@", [HLNewsModel hl_ivarList]);
+    
 }
 
 - (void)loadData {

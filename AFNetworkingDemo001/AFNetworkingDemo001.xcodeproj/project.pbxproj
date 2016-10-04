@@ -15,6 +15,7 @@
 		F2CCFA571DA285E400177292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CCFA551DA285E400177292 /* LaunchScreen.storyboard */; };
 		F2CCFA611DA2BD1400177292 /* HLNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA601DA2BD1400177292 /* HLNetworkManager.m */; };
 		F2CCFA651DA2C54F00177292 /* HLNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA641DA2C54F00177292 /* HLNewsModel.m */; };
+		F2CCFA691DA2C80300177292 /* NSObject+HLRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA681DA2C80300177292 /* NSObject+HLRuntime.m */; };
 		F86B22318AF35945EE32A4BB /* libPods-AFNetworkingDemo001.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 774156A79445EE3CCC68C949 /* libPods-AFNetworkingDemo001.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,8 @@
 		F2CCFA601DA2BD1400177292 /* HLNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNetworkManager.m; sourceTree = "<group>"; };
 		F2CCFA631DA2C54F00177292 /* HLNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNewsModel.h; sourceTree = "<group>"; };
 		F2CCFA641DA2C54F00177292 /* HLNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNewsModel.m; sourceTree = "<group>"; };
+		F2CCFA671DA2C80300177292 /* NSObject+HLRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLRuntime.h"; sourceTree = "<group>"; };
+		F2CCFA681DA2C80300177292 /* NSObject+HLRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLRuntime.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,7 @@
 				F2CCFA4B1DA285E400177292 /* AppDelegate.m */,
 				F2CCFA4D1DA285E400177292 /* ViewController.h */,
 				F2CCFA4E1DA285E400177292 /* ViewController.m */,
+				F2CCFA661DA2C7E200177292 /* Category */,
 				F2CCFA621DA2C51900177292 /* Model */,
 				F2CCFA5E1DA2BBF000177292 /* NetworkManager */,
 				F2CCFA501DA285E400177292 /* Main.storyboard */,
@@ -127,6 +131,15 @@
 				F2CCFA641DA2C54F00177292 /* HLNewsModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F2CCFA661DA2C7E200177292 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F2CCFA671DA2C80300177292 /* NSObject+HLRuntime.h */,
+				F2CCFA681DA2C80300177292 /* NSObject+HLRuntime.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2CCFA691DA2C80300177292 /* NSObject+HLRuntime.m in Sources */,
 				F2CCFA4F1DA285E400177292 /* ViewController.m in Sources */,
 				F2CCFA4C1DA285E400177292 /* AppDelegate.m in Sources */,
 				F2CCFA611DA2BD1400177292 /* HLNetworkManager.m in Sources */,
