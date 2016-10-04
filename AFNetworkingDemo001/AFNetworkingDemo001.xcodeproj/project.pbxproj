@@ -16,6 +16,19 @@
 		F2CCFA611DA2BD1400177292 /* HLNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA601DA2BD1400177292 /* HLNetworkManager.m */; };
 		F2CCFA651DA2C54F00177292 /* HLNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA641DA2C54F00177292 /* HLNewsModel.m */; };
 		F2CCFA691DA2C80300177292 /* NSObject+HLRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA681DA2C80300177292 /* NSObject+HLRuntime.m */; };
+		F2CCFA861DA3810900177292 /* NSArray+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA6D1DA3810900177292 /* NSArray+CZAddition.m */; };
+		F2CCFA871DA3810900177292 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA6F1DA3810900177292 /* NSArray+Log.m */; };
+		F2CCFA881DA3810900177292 /* NSAttributedString+CZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA711DA3810900177292 /* NSAttributedString+CZAdditon.m */; };
+		F2CCFA891DA3810900177292 /* NSObject+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA731DA3810900177292 /* NSObject+CZAddition.m */; };
+		F2CCFA8A1DA3810900177292 /* NSString+CZBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA751DA3810900177292 /* NSString+CZBase64.m */; };
+		F2CCFA8B1DA3810900177292 /* NSString+CZHash.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA771DA3810900177292 /* NSString+CZHash.m */; };
+		F2CCFA8C1DA3810900177292 /* NSString+CZPath.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA791DA3810900177292 /* NSString+CZPath.m */; };
+		F2CCFA8D1DA3810900177292 /* UIButton+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA7B1DA3810900177292 /* UIButton+CZAddition.m */; };
+		F2CCFA8E1DA3810900177292 /* UIColor+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA7D1DA3810900177292 /* UIColor+CZAddition.m */; };
+		F2CCFA8F1DA3810900177292 /* UILabel+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA7F1DA3810900177292 /* UILabel+CZAddition.m */; };
+		F2CCFA901DA3810900177292 /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA811DA3810900177292 /* UIScreen+CZAddition.m */; };
+		F2CCFA911DA3810900177292 /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA831DA3810900177292 /* UIView+CZAddition.m */; };
+		F2CCFA921DA3810900177292 /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFA851DA3810900177292 /* UIViewController+CZAddition.m */; };
 		F86B22318AF35945EE32A4BB /* libPods-AFNetworkingDemo001.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 774156A79445EE3CCC68C949 /* libPods-AFNetworkingDemo001.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +52,33 @@
 		F2CCFA641DA2C54F00177292 /* HLNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNewsModel.m; sourceTree = "<group>"; };
 		F2CCFA671DA2C80300177292 /* NSObject+HLRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLRuntime.h"; sourceTree = "<group>"; };
 		F2CCFA681DA2C80300177292 /* NSObject+HLRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLRuntime.m"; sourceTree = "<group>"; };
+		F2CCFA6B1DA3810900177292 /* CZAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZAdditions.h; sourceTree = "<group>"; };
+		F2CCFA6C1DA3810900177292 /* NSArray+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CZAddition.h"; sourceTree = "<group>"; };
+		F2CCFA6D1DA3810900177292 /* NSArray+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CZAddition.m"; sourceTree = "<group>"; };
+		F2CCFA6E1DA3810900177292 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		F2CCFA6F1DA3810900177292 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		F2CCFA701DA3810900177292 /* NSAttributedString+CZAdditon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+CZAdditon.h"; sourceTree = "<group>"; };
+		F2CCFA711DA3810900177292 /* NSAttributedString+CZAdditon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+CZAdditon.m"; sourceTree = "<group>"; };
+		F2CCFA721DA3810900177292 /* NSObject+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CZAddition.h"; sourceTree = "<group>"; };
+		F2CCFA731DA3810900177292 /* NSObject+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CZAddition.m"; sourceTree = "<group>"; };
+		F2CCFA741DA3810900177292 /* NSString+CZBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZBase64.h"; sourceTree = "<group>"; };
+		F2CCFA751DA3810900177292 /* NSString+CZBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZBase64.m"; sourceTree = "<group>"; };
+		F2CCFA761DA3810900177292 /* NSString+CZHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZHash.h"; sourceTree = "<group>"; };
+		F2CCFA771DA3810900177292 /* NSString+CZHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZHash.m"; sourceTree = "<group>"; };
+		F2CCFA781DA3810900177292 /* NSString+CZPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZPath.h"; sourceTree = "<group>"; };
+		F2CCFA791DA3810900177292 /* NSString+CZPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZPath.m"; sourceTree = "<group>"; };
+		F2CCFA7A1DA3810900177292 /* UIButton+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CZAddition.h"; sourceTree = "<group>"; };
+		F2CCFA7B1DA3810900177292 /* UIButton+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CZAddition.m"; sourceTree = "<group>"; };
+		F2CCFA7C1DA3810900177292 /* UIColor+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZAddition.h"; sourceTree = "<group>"; };
+		F2CCFA7D1DA3810900177292 /* UIColor+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZAddition.m"; sourceTree = "<group>"; };
+		F2CCFA7E1DA3810900177292 /* UILabel+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CZAddition.h"; sourceTree = "<group>"; };
+		F2CCFA7F1DA3810900177292 /* UILabel+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CZAddition.m"; sourceTree = "<group>"; };
+		F2CCFA801DA3810900177292 /* UIScreen+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+CZAddition.h"; sourceTree = "<group>"; };
+		F2CCFA811DA3810900177292 /* UIScreen+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+CZAddition.m"; sourceTree = "<group>"; };
+		F2CCFA821DA3810900177292 /* UIView+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZAddition.h"; sourceTree = "<group>"; };
+		F2CCFA831DA3810900177292 /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
+		F2CCFA841DA3810900177292 /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
+		F2CCFA851DA3810900177292 /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +131,7 @@
 		F2CCFA461DA285E400177292 /* AFNetworkingDemo001 */ = {
 			isa = PBXGroup;
 			children = (
+				F2CCFA6A1DA3810900177292 /* Additions */,
 				F2CCFA4A1DA285E400177292 /* AppDelegate.h */,
 				F2CCFA4B1DA285E400177292 /* AppDelegate.m */,
 				F2CCFA4D1DA285E400177292 /* ViewController.h */,
@@ -140,6 +181,41 @@
 				F2CCFA681DA2C80300177292 /* NSObject+HLRuntime.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		F2CCFA6A1DA3810900177292 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				F2CCFA6B1DA3810900177292 /* CZAdditions.h */,
+				F2CCFA6C1DA3810900177292 /* NSArray+CZAddition.h */,
+				F2CCFA6D1DA3810900177292 /* NSArray+CZAddition.m */,
+				F2CCFA6E1DA3810900177292 /* NSArray+Log.h */,
+				F2CCFA6F1DA3810900177292 /* NSArray+Log.m */,
+				F2CCFA701DA3810900177292 /* NSAttributedString+CZAdditon.h */,
+				F2CCFA711DA3810900177292 /* NSAttributedString+CZAdditon.m */,
+				F2CCFA721DA3810900177292 /* NSObject+CZAddition.h */,
+				F2CCFA731DA3810900177292 /* NSObject+CZAddition.m */,
+				F2CCFA741DA3810900177292 /* NSString+CZBase64.h */,
+				F2CCFA751DA3810900177292 /* NSString+CZBase64.m */,
+				F2CCFA761DA3810900177292 /* NSString+CZHash.h */,
+				F2CCFA771DA3810900177292 /* NSString+CZHash.m */,
+				F2CCFA781DA3810900177292 /* NSString+CZPath.h */,
+				F2CCFA791DA3810900177292 /* NSString+CZPath.m */,
+				F2CCFA7A1DA3810900177292 /* UIButton+CZAddition.h */,
+				F2CCFA7B1DA3810900177292 /* UIButton+CZAddition.m */,
+				F2CCFA7C1DA3810900177292 /* UIColor+CZAddition.h */,
+				F2CCFA7D1DA3810900177292 /* UIColor+CZAddition.m */,
+				F2CCFA7E1DA3810900177292 /* UILabel+CZAddition.h */,
+				F2CCFA7F1DA3810900177292 /* UILabel+CZAddition.m */,
+				F2CCFA801DA3810900177292 /* UIScreen+CZAddition.h */,
+				F2CCFA811DA3810900177292 /* UIScreen+CZAddition.m */,
+				F2CCFA821DA3810900177292 /* UIView+CZAddition.h */,
+				F2CCFA831DA3810900177292 /* UIView+CZAddition.m */,
+				F2CCFA841DA3810900177292 /* UIViewController+CZAddition.h */,
+				F2CCFA851DA3810900177292 /* UIViewController+CZAddition.m */,
+			);
+			name = Additions;
+			path = Category/Additions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,10 +343,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2CCFA691DA2C80300177292 /* NSObject+HLRuntime.m in Sources */,
+				F2CCFA8F1DA3810900177292 /* UILabel+CZAddition.m in Sources */,
+				F2CCFA8A1DA3810900177292 /* NSString+CZBase64.m in Sources */,
 				F2CCFA4F1DA285E400177292 /* ViewController.m in Sources */,
 				F2CCFA4C1DA285E400177292 /* AppDelegate.m in Sources */,
+				F2CCFA8B1DA3810900177292 /* NSString+CZHash.m in Sources */,
+				F2CCFA8E1DA3810900177292 /* UIColor+CZAddition.m in Sources */,
 				F2CCFA611DA2BD1400177292 /* HLNetworkManager.m in Sources */,
+				F2CCFA921DA3810900177292 /* UIViewController+CZAddition.m in Sources */,
+				F2CCFA901DA3810900177292 /* UIScreen+CZAddition.m in Sources */,
 				F2CCFA651DA2C54F00177292 /* HLNewsModel.m in Sources */,
+				F2CCFA881DA3810900177292 /* NSAttributedString+CZAdditon.m in Sources */,
+				F2CCFA8D1DA3810900177292 /* UIButton+CZAddition.m in Sources */,
+				F2CCFA891DA3810900177292 /* NSObject+CZAddition.m in Sources */,
+				F2CCFA871DA3810900177292 /* NSArray+Log.m in Sources */,
+				F2CCFA861DA3810900177292 /* NSArray+CZAddition.m in Sources */,
+				F2CCFA911DA3810900177292 /* UIView+CZAddition.m in Sources */,
+				F2CCFA8C1DA3810900177292 /* NSString+CZPath.m in Sources */,
 				F2CCFA491DA285E400177292 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

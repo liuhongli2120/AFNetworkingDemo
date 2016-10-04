@@ -11,6 +11,38 @@
 
 @implementation NSObject (HLRuntime)
 
+
+
++ (NSArray *)hl_objectsWithArray:(NSArray *)array {
+    
+    if (array.count == 0) {
+        return nil;
+    }
+    
+    NSAssert([array[0] isKindOfClass:[NSDictionary class]], @"必须传入字典数组");
+    
+    NSArray *ptyList = [self hl_propertyList];
+    
+    NSMutableArray *arrayM = [NSMutableArray array];
+    for (NSDictionary *dict in array) {
+        id model = [[self alloc]init];
+        
+        for (NSString *key in dict) {
+            if ([ptyList containsObject:key]) {
+                
+                [model setValue:dict[key] forKey:key];
+                
+            }
+        }
+        
+        [arrayM addObject:model];
+    }
+    
+    return arrayM.copy;
+}
+
+
+
 + (NSArray *)hl_ivarList {
     
     unsigned int count = 0;
@@ -25,7 +57,7 @@
         Ivar ivar = list[i];
         
         const char *cName = ivar_getName(ivar);
-        NSLog(@"cName = %s", cName);
+//        NSLog(@"cName = %s", cName);
         
         //转换成OC字符串
         NSString *name = [NSString stringWithUTF8String:cName];

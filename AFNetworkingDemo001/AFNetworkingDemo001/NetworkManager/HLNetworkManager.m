@@ -30,7 +30,7 @@
     
     [[HLNetworkManager sharedManager] GET:urlString parameters:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
-        NSLog(@"%@", responseObject);
+//        NSLog(@"%@", responseObject);
         
         completion(responseObject, nil);
         

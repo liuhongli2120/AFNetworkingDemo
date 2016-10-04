@@ -23,7 +23,7 @@
     [self loadData];
 //    NSLog(@"%@", [HLNewsModel hl_propertyList]);
     
-    NSLog(@"%@", [HLNewsModel hl_ivarList]);
+//    NSLog(@"%@", [HLNewsModel hl_ivarList]);
     
 }
 
@@ -35,7 +35,12 @@
             return;
         }
         
-        NSLog(@"请求成功");
+//        NSLog(@"%@", array);
+        
+        NSArray *list = [HLNewsModel hl_objectsWithArray:array];
+        
+        NSLog(@"模型数量 = %zd", list.count);
+        
     }];
 }
 

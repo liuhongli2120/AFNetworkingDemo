@@ -10,6 +10,9 @@
 
 @interface NSObject (HLRuntime)
 
+// 字典数组,转换成当前模型对象数组
++ (NSArray *)hl_objectsWithArray:(NSArray *)array;
+
 // 返回当前成员变量数组
 + (NSArray *)hl_ivarList;
 
