@@ -22,10 +22,14 @@
     [super viewDidLoad];
     [self loadData];
 //    NSLog(@"%@", [HLNewsModel hl_propertyList]);
-    
 //    NSLog(@"%@", [HLNewsModel hl_ivarList]);
     
 }
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self loadData];
+}
+
 
 - (void)loadData {
     

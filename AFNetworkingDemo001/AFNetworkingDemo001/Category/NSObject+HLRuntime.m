@@ -71,8 +71,15 @@
     
 }
 
-
+const void *hl_propertyList = @"hl_propertyList";
 + (NSArray *)hl_propertyList {
+    
+    //利用关联对象在分类里动态添加属性,优化字典转模型性能
+    NSArray *result = objc_getAssociatedObject(self, hl_propertyList);
+    if (result != nil) {
+        return result;
+    }
+    
     
     unsigned int count = 0;
     //获取指定类的数组
@@ -99,7 +106,10 @@
     
     free(list);
     
-    return arrayM.copy;
+    objc_setAssociatedObject(self, hl_propertyList, arrayM, OBJC_ASSOCIATION_COPY_NONATOMIC);
+    
+//    return arrayM.copy;
+    return objc_getAssociatedObject(self, hl_propertyList);
 }
 
 
